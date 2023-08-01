@@ -1,11 +1,15 @@
 package com.cc.java;
 
 public class App {
-    
+
     public static void main(String[] args) {
-     
-       
-       
+
+        Parent dad = new Parent();
+        Children child = new Children();
+
+        output(dad.sayHello("Hey!"));
+        output(dad.sayHello());
+        output(child.sayHello());
 
     }
 
@@ -13,7 +17,4 @@ public class App {
         System.out.println(outputStr);
     }
 
-
-
 }
-
